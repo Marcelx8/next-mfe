@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "./shell",
+    "./pdp",
+    "./orders"
+  ],
+  "scripts": {
+    "dev": "concurrently \"wsrun --parallel dev\"",
+    "build": "concurrently \"wsrun --parallel build\""
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^3.2.2",
+    "concurrently": "^6.4.0",
+    "wsrun": "^5.2.4"
+  }
+}
