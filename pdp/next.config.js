@@ -52,11 +52,6 @@ module.exports = withFederatedSidecar({
               singleton: true,
               eager: true,
               requiredVersion: false,
-            },
-            zustand: {
-              singleton: true,
-              eager: true,
-              requiredVersion: false,
             }
           },
         })
